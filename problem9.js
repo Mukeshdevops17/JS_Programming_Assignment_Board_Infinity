@@ -41,8 +41,8 @@ function root(a, b, c) {
     }
     // if roots are not real
     else {
-        let realPart = (-b / (2 * a)).toFixed(2);
-        let imagPart = (Math.sqrt(-discriminant) / 2 * a).toFixed(2);
+        root1 = (-b / (2 * a)).toFixed(2);
+        root2 = (Math.sqrt(-discriminant) / 2 * a).toFixed(2);
         //result
         return ` ${root1}  ${root2}`;
     }
