@@ -10,7 +10,7 @@ Sample Output : 55    */
 
 // solution:
 
-const getSum = (number) => number < 2 ? 'Enter a positive number' : number * (number + 1) / 2;
+const getSum = (number) => number < 1 ? 'Enter a positive number' : number * (number + 1) / 2;
 
 // Driver program to test above functions
 let ans = getSum(10);
